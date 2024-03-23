@@ -8,7 +8,7 @@
   <body>
     <form>
       <label for="txtNome">Nome:</label>
-      <input id="txtNome" type="text" placeholder="Insira seu nome completo" />
+      <input id="txtNome" type="text" placeholder="Insira seu nome completo"  required/>
 
       <br /><br />
       <label for="txtSenha">Senha:</label>
@@ -27,11 +27,11 @@
         <legend>Contato</legend>
 
         <label for="txtEmail">Email:</label>
-        <input id="txtEmail" type="email" placeholder="exemplo@exemplo.com" />
+        <input id="txtEmail" type="email" placeholder="exemplo@exemplo.com" required />
 
         <br /><br />
         <label for="txtSite">Site:</label>
-        <input id="txtSite" type="url" placeholder="http://www.exemplo.com" />
+        <input id="txtSite" type="url" placeholder="http://www.exemplo.com"  required/>
       </fieldset>
 
       <br /><br />
@@ -46,12 +46,9 @@
       Sexo:
       <!--name sexo é utilizado para deixar seleção excludente-->
       <input id="masc" type="radio" name="sexo" /><label for="masc"
-        >Masculino</label
-      >
+        >Masculino</label>
 
-      <input id="fem" type="radio" name="sexo" /><label for="fem"
-        >Feminino</label
-      >
+      <input id="fem" type="radio" name="sexo" /><label for="fem">Feminino</label>
 
       <br /><br />
       <label for="">Linguagens de programação de domínio:</label>
@@ -64,6 +61,10 @@
       <br /><br />
       <input id="language3" type="checkbox" />
       <label for="language3">JavaScript</label>
+
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+      <input type="button" value="Cancelar">
     </form>
   </body>
 </html>

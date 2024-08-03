@@ -1,0 +1,12 @@
+Pseudo Classes
+
+https://www.w3schools.com/css/css_pseudo_classes.asp
+
+    <!-- <style>
+        Aplicar estilo somente no primeiro p:
+        div p:first-child{
+            background-color: yellow;
+        }
+    </style> -->
+
+

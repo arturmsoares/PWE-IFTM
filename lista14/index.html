@@ -9,53 +9,65 @@
             margin: 0px;
             padding: 0px;
         }
-        header{
-            width: 100%;
-        }
-        h1{
+        h1, body{
             background-color: black;
+
+        }
+        header h1, header h3{
             color: white;
             text-align: right;
             padding: 10px;
         }
-        h2{
-            background-color: gray;
-            color: white;
-            text-align: right;
-            padding:10 px;
+        header h3, footer{
+            background-color: #808080;
         }
         nav{            
-            background-color: blueviolet;
+            background-color: #7B7BFA;
             text-align: center;
-            border: 1px solid red;
             padding: 10px;
         }
         nav ul li{
             display:inline;
-            padding: 10px;
+            padding: 20px;
             color: white;
             
         }
-        a:link, a:visited{
+        nav ul li a:link, a:visited{
             color: white;
-            text-decoration: none;
+            text-decoration:none;
+        }
+        nav ul li a:hover{
+            text-decoration: underline;
+        }
+        a:hover{
+            text-decoration: underline;
         }
 
-        body{
-            background-color: black;
-        }
         div{
             background-color:white;
             width: 1200px;
             margin: 0 auto;
+            padding: 10px 10px;
+        }
+        div h3{
+            padding-top: 10px;
+            padding-bottom: 10px;
             
+        }
+        div ul{
+            padding: 10px;
+            text-decoration: none;
+        }
+        
+        footer{
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <header>
         <h1 id="topo">Tecnologias Web</h1>
-        <h2>Aprenda na prática</h2>
+        <h3>Aprenda na prática</h3>
         <nav>
             <ul>
             <li><a href="">Matricule-se</a></li>
@@ -72,28 +84,28 @@
             <h3>Conheça as tecnologias</h3>
 
             <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
+                <li><a href="#html5">HTML5</a></li>
+                <li><a href="#html5">CSS3</a></li>
             </ul>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, aliquid repellat rem rerum, architecto ab ducimus veniam iste voluptas distinctio magni nisi tenetur tempore omnis! Modi eius impedit deleniti beatae!
+            <p><strong>Lorem ipsum dolor</strong>, sit amet consectetur adipisicing elit. Id, aliquid repellat rem rerum, architecto ab ducimus veniam iste voluptas distinctio magni nisi tenetur tempore omnis! Modi eius impedit deleniti beatae!
             Officiis rem recusandae id vitae eveniet, ea nesciunt, ut voluptates magni esse hic alias pariatur ex amet delectus possimus consequuntur provident praesentium inventore, excepturi sapiente. Nam expedita aliquam error commodi?
             Natus vitae et, eos ad debitis vero nisi magni praesentium minima deserunt fugiat suscipit reiciendis explicabo sed facere neque placeat ducimus illum magnam sint corrupti aperiam exercitationem alias iure. Quam.
             Natus aperiam fugit, explicabo at minima nobis cumque recusandae quisquam adipisci iste autem perspiciatis. Error nam vero at praesentium ullam perspiciatis consequuntur, vel repellat similique ab reiciendis nesciunt fugiat consequatur.</p>
 
-            <img src="imagem/logo.png" alt="" width="200px">
+            <img src="imagens/logo.png" alt="" width="200px">
             
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, aliquid repellat rem rerum, architecto ab ducimus veniam iste voluptas distinctio magni nisi tenetur tempore omnis! Modi eius impedit deleniti beatae!
+            <p><u>Lorem ipsum dolor</u>, sit amet consectetur adipisicing elit. Id, aliquid repellat rem rerum, architecto ab ducimus veniam iste voluptas distinctio magni nisi tenetur tempore omnis! Modi eius impedit deleniti beatae!
             Officiis rem recusandae id vitae eveniet, ea nesciunt, ut voluptates magni esse hic alias pariatur ex amet delectus possimus consequuntur provident praesentium inventore, excepturi sapiente. Nam expedita aliquam error commodi?
             Natus vitae et, eos ad debitis vero nisi magni praesentium minima deserunt fugiat suscipit reiciendis explicabo sed facere neque placeat ducimus illum magnam sint corrupti aperiam exercitationem alias iure. Quam.
             Natus aperiam fugit, explicabo at minima nobis cumque recusandae quisquam adipisci iste autem perspiciatis. Error nam vero at praesentium ullam perspiciatis consequuntur, vel repellat similique ab reiciendis nesciunt fugiat consequatur.</p>
             
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, aliquid repellat rem rerum, architecto ab ducimus veniam iste voluptas distinctio magni nisi tenetur tempore omnis! Modi eius impedit deleniti beatae!
+            <p><i>Lorem ipsum dolor</i>, sit amet consectetur adipisicing elit. Id, aliquid repellat rem rerum, architecto ab ducimus veniam iste voluptas distinctio magni nisi tenetur tempore omnis! Modi eius impedit deleniti beatae!
             Officiis rem recusandae id vitae eveniet, ea nesciunt, ut voluptates magni esse hic alias pariatur ex amet delectus possimus consequuntur provident praesentium inventore, excepturi sapiente. Nam expedita aliquam error commodi?
             Natus vitae et, eos ad debitis vero nisi magni praesentium minima deserunt fugiat suscipit reiciendis explicabo sed facere neque placeat ducimus illum magnam sint corrupti aperiam exercitationem alias iure. Quam.
             Natus aperiam fugit, explicabo at minima nobis cumque recusandae quisquam adipisci iste autem perspiciatis. Error nam vero at praesentium ullam perspiciatis consequuntur, vel repellat similique ab reiciendis nesciunt fugiat consequatur.</p>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, aliquid repellat rem rerum, architecto ab ducimus veniam iste voluptas distinctio magni nisi tenetur tempore omnis! Modi eius impedit deleniti beatae!
+            <p><s>Lorem ipsum dolor</s>, sit amet consectetur adipisicing elit. Id, aliquid repellat rem rerum, architecto ab ducimus veniam iste voluptas distinctio magni nisi tenetur tempore omnis! Modi eius impedit deleniti beatae!
             Officiis rem recusandae id vitae eveniet, ea nesciunt, ut voluptates magni esse hic alias pariatur ex amet delectus possimus consequuntur provident praesentium inventore, excepturi sapiente. Nam expedita aliquam error commodi?
             Natus vitae et, eos ad debitis vero nisi magni praesentium minima deserunt fugiat suscipit reiciendis explicabo sed facere neque placeat ducimus illum magnam sint corrupti aperiam exercitationem alias iure. Quam.
             Natus aperiam fugit, explicabo at minima nobis cumque recusandae quisquam adipisci iste autem perspiciatis. Error nam vero at praesentium ullam perspiciatis consequuntur, vel repellat similique ab reiciendis nesciunt fugiat consequatur.</p>

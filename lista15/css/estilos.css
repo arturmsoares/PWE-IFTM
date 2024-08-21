@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,30 +10,37 @@
 ul{
     position: fixed;
     top:100px;
+    list-style-type: none;
 }
 
 li{
-    border-right: 5px solid black;
+    border-right: 10px solid black;
     border-radius: 0px 5px 5px 0px;
-    margin-top:10px;
-    padding: 10px;
-    margin-left: -75px;
-    transition: all 0.5s;
+    margin:10px 0px;
+    padding: 10px 15px;
+    /* pq margin left negativa não resolve o problema do avanço a direita de cada item?
+    margin-left:; */
+    transition:0.5s;
+    transform: translateX(-120px);
+    text-align: right;
+    width: 100px;
 }
 
 a{
     text-decoration: none;
     color: black;
-    text-align: right;    
+    text-align: right;
+    font-family: "Josefin Sans", sans-serif;    
 }
 
 li:hover{
     margin-left: 0px;
+    transform: translateX(0px);
 }
 
 
 li:nth-child(1){
- background-color: pink;
+ background-color:violet;
 }
 
 li:nth-child(2){
@@ -43,4 +54,9 @@ li:nth-child(3){
 li:nth-child(4){
     background-color: lightgreen;
 }
-   
+
+li:nth-child(5){
+    background-color: brown;
+}
+  
+

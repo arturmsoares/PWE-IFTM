@@ -51,9 +51,8 @@ header section img{
 }
 
 .principal{
-    width: 1200px;
     margin: auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .principal img{
@@ -66,6 +65,10 @@ header section img{
     padding: 30px;
     /* border: 2px solid red; */
     background-color: white;
+}
+
+.titulos h1{
+    font-size: 30px;
 }
 
 .titulos h2{
@@ -99,6 +102,8 @@ header section img{
 
 .conteudo{
     background-color: white;
+    width: 1200px;
+    margin: auto;
 }
 
 .textoImagem{
@@ -107,15 +112,31 @@ header section img{
 }
 
 .textoImagem div{
-    width: 50%;
     align-items: center;
 }
 
 .imagem {
-    text-align: center;
-    width: 500px;
+    display: flex;
+    width: 45%;
+    height: auto;
+    justify-content: center;
 }
 
+.paragrafo{
+    padding: 15px 0px 15px 15px
+}
+
+p{
+    padding-bottom: 15px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    width: 100%;
+    display: inline-block;
+}
 
 
 

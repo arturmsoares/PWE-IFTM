@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, footer{
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    /* border: 2px solid red; */
+}
+
+ul li img{
+    width: 30px;
+    opacity: 0;
+    /* border: 2px solid yellow; */
+}
+
+ul li:hover img{
+    opacity: 1;
+}
+
+ul li a{
+    /* border: 5px solid pink; */
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+ul li {
+    padding: 10px 10px;
+    margin-right: 10px;
+    width: 120px;
+    /* border: 2px solid green; */
+}
+
+ul li:hover a{
+    color: black;
+}
+
+ul li:hover {
+    background-color: white;
+}
+
+header section img{
+    width: 100%;
+}
+
+.principal{
+    width: 1200px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.principal img{
+    width: 200px;
+}
+
+.titulos{
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+    /* border: 2px solid red; */
+    background-color: white;
+}
+
+.titulos h2{
+    color: red;
+}
+
+.secaoCinza{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    margin: auto;
+    padding: 20px;
+}
+
+.secaoCinza div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center; /*a imagem não centralizou só com text-align*/
+    text-align: center;
+}
+
+.secaoCinza img{
+    width: 50px;  
+}
+
+.secaoCinza h3{
+    color: rgb(1, 63, 1);
+}
+
+.conteudo{
+    background-color: white;
+}
+
+.textoImagem{
+    display: flex;
+    flex-direction: row;
+}
+
+.textoImagem div{
+    width: 50%;
+    align-items: center;
+}
+
+.imagem {
+    text-align: center;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+

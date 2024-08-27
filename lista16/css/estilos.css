@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Oswald", sans-serif;
+}
+
+header nav{
+    background-color: black;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.menu li{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: black;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu img{
+    margin-right: 10px;
+    opacity: 0;
+}
+
+.menu li:hover img{
+    opacity: 1;
+}
+
+.menu li:hover{
+    background-color: white;
+}
+
+.menu li:hover a{
+    color: black;
+}
+
+
+/* main */
+
+main section:nth-of-type(odd){
+    background-color: white;
+}
+
+main section:nth-of-type(even){
+    background-color: lightgray;
+}
+
+main section p, .resumo h2{
+    margin: 20px 0px;
+}
+
+
+.titulos{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.titulos h1{
+    font-size: 35px;
+}
+
+.titulos h2{
+    font-size: 20px;
+    color: red;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+}
+
+.resumo{
+    text-align: center;
+}
+
+.container div{
+    margin: 20px 10px;
+}
+
+.resumo .container h2{
+    color: rgb(1, 94, 1);
+}
+
+.texto {
+    text-align: justify;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 30px 0px;
+    color: white;
+}

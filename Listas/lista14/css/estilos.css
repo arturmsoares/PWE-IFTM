@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+h1, body{
+    background-color: black;
+    align-items: center;
+
+}
+header h1, header h3{
+    color: white;
+    text-align: right;
+    padding: 10px;
+    
+}
+header h3, footer{
+    background-color: #808080;
+}
+nav{            
+    background-color: #7B7BFA;
+    text-align: center;
+    padding: 10px;
+}
+nav ul li{
+    display:inline;
+    padding: 25px;
+    color: white;
+    
+}
+header nav ul li a:link, header nav ul li a:visited{
+    color: white;
+    text-decoration:none;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color:white;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 20px;
+}
+
+main ul{
+    padding: 15px 0px 15px 30px;
+
+}
+
+main div h2:first-child:hover{
+    letter-spacing: 5px; 
+    transition: all 0.5s;   
+}
+
+main div h2{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+main div p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main img{
+    margin: 15px auto;
+    display: block;
+    width: 400px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}

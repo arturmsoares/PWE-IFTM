@@ -1,4 +1,4 @@
-# Projeto Wesite Estático
+# Projeto Website Estático
 
 O repositório está assim dividido:
 - Aulas: contém códigos desenvolvidos em sala de aula;

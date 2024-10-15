@@ -1,11 +1,11 @@
-#Projeto Wesite Estático
+# Projeto Wesite Estático
 
 O repositório está assim dividido:
 - Aulas: contém códigos desenvolvidos em sala de aula;
 - Listas: contém os códigos desenvolvidos para avaliação;
 - Provas: provas desenvolvidas no âmbito da disciplina;
 
-##Links das Listas
+## Links das Listas
 
 - [Lista 1](https://arturmsoares.github.io/PWE/Listas/lista01/)
 - [Lista 2](https://arturmsoares.github.io/PWE/Listas/lista02/)
@@ -23,4 +23,4 @@ O repositório está assim dividido:
 - [Lista 16](https://arturmsoares.github.io/PWE/Listas/lista16/)
 - [Lista 17](https://arturmsoares.github.io/PWE/Listas/lista17/)
 
-##Links das Provas
+## Links das Provas

@@ -30,5 +30,5 @@ O repositório está assim dividido:
 - [Prova 2](https://arturmsoares.github.io/PWE/Provas/prova02/)
 
 ## Página do Projeto Final
-- [Projeto Final](https://arturmsoares.github.io/PWE-IFTM/Projeto%20Final%20PWE/)
+- [Projeto Final](https://arturmsoares.github.io/PWE-IFTM/ProjetoFinalPWE/)
 
